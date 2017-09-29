@@ -1,0 +1,50 @@
+<!doctype html>
+	<head>
+		<title>Skeleton skills</title>
+		<meta charset="UTF-8">
+		<script src="../libs/p5.min.js"></script>
+		<script src="../libs/p5.sound.js"></script>
+		<script src="sketch.js"></script>
+		<script src="Skull.js"></script>
+		<style>
+			html, body {
+  				height: 100%;
+			}
+
+			body {
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			#info {
+				position: fixed;
+				top : 10px;
+				left : 10px;
+				font-family: monospace;
+			}
+			#info-content {
+				display: none;
+			}
+			#info:hover #info-content {
+				display: block;
+			}
+			a {
+				color: black;
+			}
+			</style>
+	</head>
+	
+	<body>
+		<div id="info">
+			<img src="info.png">
+			<div id="info-content">
+				<p>Uttilise la souris ou les touches 1 à 5 du clavier pour jouer avec les crânes.<br>N'oublie pas d'activer le son !<p>
+				<p>Use the mouse or the 1 to 5 keys to play with the bones.<br>
+				Don't forget to turn on the sound !<p>
+				<p>Made with <a href="https://p5js.org/">p5.js</a> – <a href="#">Source</a> - <a href="http://artlibre.org/">License</a><p>
+				<p><a href="http://leonlenclos.net">Léon</a> 2017<p>
+			</div>
+		</div>
+	</body>
+</html>
